@@ -25,22 +25,48 @@
                 <p>description from txt</p>
             </div>
 
-            <div class="artworks">
-                <div class="artwork-item">
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numberext">1 / 4</div>
                     <img src="Artists/Johannes_Vermeer/johannes-vermeer.jpg!Portrait.jpg" alt="Portrait">
-                    <p>Portrait</p>
+                    <!-- <p>Portrait</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Johannes_Vermeer/The Girl with a Pearl Earring1665.PNG" alt="The Girl with a Pearl Earring 1665" style="width: 154px; height: auto;">
-                    <p>The Girl with a Pearl Earring 1665</p>
+                <div class="mySlides">
+                    <div class="numberext">2 / 4</div>
+                    <img src="Artists/Johannes_Vermeer/The Girl with a Pearl Earring1665.PNG" alt="The Girl with a Pearl Earring 1665" style="width: 100%">
+                    <!-- <p>The Girl with a Pearl Earring 1665</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Johannes_Vermeer/The Love Letter1669.PNG" alt="The Love Letter 1669" style="width: 156px; height: auto;">
-                    <p>The Love Letter 1669</p>
+                <div class="mySlides">
+                    <div class="numberext">3 / 4</div>
+                    <img src="Artists/Johannes_Vermeer/The Love Letter1669.PNG" alt="The Love Letter 1669" style="width: 100%">
+                    <!-- <p>The Love Letter 1669</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Johannes_Vermeer/The Milkmaid1660.PNG" alt="The Milkmaid 1660" style="width: 162px; height: auto;">
-                    <p>The Milkmaid 1660</p>
+                <div class="mySlides">
+                    <div class="numberext">4 / 4</div>
+                    <img src="Artists/Johannes_Vermeer/The Milkmaid1660.PNG" alt="The Milkmaid 1660" style="width: 100%">
+                    <!-- <p>The Milkmaid 1660</p> -->
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Johannes_Vermeer/johannes-vermeer.jpg!Portrait.jpg" style="width:100%" onclick="currentSlide(1)" alt="Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Johannes_Vermeer/The Girl with a Pearl Earring1665.PNG" style="width: 100%" onclick="currentSlide(2)" alt="The Girl with a Pearl Earring 1665">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Johannes_Vermeer/The Love Letter1669.PNG" style="width: 100%" onclick="currentSlide(3)" alt="The Love Letter 1669">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Johannes_Vermeer/The Milkmaid1660.PNG" style="width: 100%" onclick="currentSlide(4)" alt="The Milkmaid 1660">
+                    </div>
                 </div>
             </div>
         </div>

@@ -25,22 +25,48 @@
                 <p>description from txt</p>
             </div>
 
-            <div class="artworks">
-                <div class="artwork-item">
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numberext">1 / 4</div>
                     <img src="Artists/Claude_Monet/claudemonetportrait.jpg" alt="Claude Monet Portrait">
-                    <p>Claude Monet Portrait</p>
+                    <!-- <p>Claude Monet Portrait</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Claude_Monet/Impression_sunrise1872.PNG" alt="Impression, Sunrise 1872" style="width: 234px; height: auto;">
-                    <p>Impression, Sunrise 1872</p>
+                <div class="mySlides">
+                    <div class="numberext">2 / 4</div>
+                    <img src="Artists/Claude_Monet/Impression_sunrise1872.PNG" alt="Impression, Sunrise 1872" style="width: 100%">
+                    <!-- <p>Impression, Sunrise 1872</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Claude_Monet/Irises in Monet's Garden1900.PNG" alt="Irises in Monet's Garden 1900" style="width: 265px; height: auto;">
-                    <p>Irises in Monet's Garden 1900</p>
+                <div class="mySlides">
+                    <div class="numberext">3 / 4</div>
+                    <img src="Artists/Claude_Monet/Irises in Monet's Garden1900.PNG" alt="Irises in Monet's Garden 1900" style="width: 100%">
+                    <!-- <p>Irises in Monet's Garden 1900</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Claude_Monet/Women in the garden1866.PNG" alt="Women in the Garden 1866" style="width: 168px; height: auto;">
-                    <p>Women in the Garden 1866</p>
+                <div class="mySlides">
+                    <div class="numberext">4 / 4</div>
+                    <img src="Artists/Claude_Monet/Women in the garden1866.PNG" alt="Women in the Garden 1866" style="width: 100%">
+                    <!-- <p>Women in the Garden 1866</p> -->
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Claude_Monet/claudemonetportrait.jpg" style="width:100%" onclick="currentSlide(1)" alt="Claude Monet Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Claude_Monet/Impression_sunrise1872.PNG" style="width: 100%" onclick="currentSlide(2)" alt="Impression, Sunrise 1872">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Claude_Monet/Irises in Monet's Garden1900.PNG" style="width: 100%" onclick="currentSlide(3)" alt="Irises in Monet's Garden 1900">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Claude_Monet/Women in the garden1866.PNG" style="width: 100%" onclick="currentSlide(4)" alt="Women in the Garden 1866">
+                    </div>
                 </div>
             </div>
         </div>

@@ -25,22 +25,48 @@
                 <p>description from txt</p>
             </div>
 
-            <div class="artworks">
-                <div class="artwork-item">
-                    <img src="Artists/Michelangelo/David1501-1504.PNG" alt="David 1501-1504" style="width: 99px; height: auto;">
-                    <p>David 1501-1504</p>
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numberext">1 / 4</div>
+                    <img src="Artists/Michelangelo/David1501-1504.PNG" alt="David 1501-1504" style="width: 100%">
+                    <!-- <p>David 1501-1504</p> -->
                 </div>
-                <div class="artwork-item">
+                <div class="mySlides">
+                    <div class="numberext">2 / 4</div>
                     <img src="Artists/Michelangelo/michelangelo.jpg!Portrait.jpg" alt="Portrait">
-                    <p>Portrait</p>
+                    <!-- <p>Portrait</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Michelangelo/The Creation of Adam1508-1512.PNG" alt="The Creation of Adam 1508-1512" style="width: 320px; height: auto;">
-                    <p>The Creation of Adam 1508-1512</p>
+                <div class="mySlides">
+                    <div class="numberext">3 / 4</div>
+                    <img src="Artists/Michelangelo/The Creation of Adam1508-1512.PNG" alt="The Creation of Adam 1508-1512" style="width: 100%">
+                    <!-- <p>The Creation of Adam 1508-1512</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Michelangelo/The Last Judgement 1537-1541.PNG" alt="The Last Judgement 1537-1541" style="width: 143px; height: auto;">
-                    <p>The Last Judgement 1537-1541</p>
+                <div class="mySlides">
+                    <div class="numberext">4 / 4</div>
+                    <img src="Artists/Michelangelo/The Last Judgement 1537-1541.PNG" alt="The Last Judgement 1537-1541" style="width: 100%">
+                    <!-- <p>The Last Judgement 1537-1541</p> -->
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Michelangelo/David1501-1504.PNG" style="width:100%" onclick="currentSlide(1)" alt="David 1501-1504">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Michelangelo/michelangelo.jpg!Portrait.jpg" style="width: 100%" onclick="currentSlide(2)" alt="Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Michelangelo/The Creation of Adam1508-1512.PNG" style="width: 100%" onclick="currentSlide(3)" alt="The Creation of Adam 1508-1512">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Michelangelo/The Last Judgement 1537-1541.PNG" style="width: 100%" onclick="currentSlide(4)" alt="The Last Judgement 1537-1541">
+                    </div>
                 </div>
             </div>
         </div>

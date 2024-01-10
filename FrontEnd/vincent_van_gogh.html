@@ -25,34 +25,72 @@
                 <p>description from txt</p>
             </div>
 
-            <div class="artworks">
-                <div class="artwork-item">
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numberext">1 / 7</div>
                     <img src="Artists/Vincent_van_Gogh/vincent-van-gogh.jpg!Portrait.jpg" alt="Portrait">
-                    <p>Portrait</p>
+                    <!-- <p>Portrait</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Vincent_van_Gogh/Self-Portrait 1886.PNG" alt="Self-Portrait 1886" style="width: 137px; height: auto;">
-                    <p>Self-Portrait 1886</p>
+                <div class="mySlides">
+                    <div class="numberext">2 / 7</div>
+                    <img src="Artists/Vincent_van_Gogh/Self-Portrait 1886.PNG" alt="Self-Portrait 1886" style="width: 100%">
+                    <!-- <p>Self-Portrait 1886</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Vincent_van_Gogh/Self Portrait 1889.PNG" alt="Self Portrait 1889" style="width: 151px; height: auto;">
-                    <p>Self Portrait 1889</p>
+                <div class="mySlides">
+                    <div class="numberext">3 / 7</div>
+                    <img src="Artists/Vincent_van_Gogh/Self Portrait 1889.PNG" alt="Self Portrait 1889" style="width: 100%">
+                    <!-- <p>Self Portrait 1889</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Vincent_van_Gogh/Self Portrait with Bandaged Ear1889.PNG" alt="Self Portrait with Bandaged Ear 1889" style="width: 146px; height: auto;">
-                    <p>Self Portrait with Bandaged Ear 1889</p>
+                <div class="mySlides">
+                    <div class="numberext">4 / 7</div>
+                    <img src="Artists/Vincent_van_Gogh/Self Portrait with Bandaged Ear1889.PNG" alt="Self Portrait with Bandaged Ear 1889" style="width: 100%">
+                    <!-- <p>Self Portrait with Bandaged Ear 1889</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Vincent_van_Gogh/Iris1889.PNG" alt="Iris 1889" style="width: 232px; height: auto;">
-                    <p>Iris 1889</p>
+                <div class="mySlides">
+                    <div class="numberext">5 / 7</div>
+                    <img src="Artists/Vincent_van_Gogh/Iris1889.PNG" alt="Iris 1889" style="width: 100%">
+                    <!-- <p>Iris 1889</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Vincent_van_Gogh/The Potato Eaters 1885.PNG" alt="The Potato Eaters 188" style="width: 255px; height: auto;">
-                    <p>The Potato Eaters 188</p>
+                <div class="mySlides">
+                    <div class="numberext">6 / 7</div>
+                    <img src="Artists/Vincent_van_Gogh/The Potato Eaters 1885.PNG" alt="The Potato Eaters 1885" style="width: 100%">
+                    <!-- <p>The Potato Eaters 188</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Vincent_van_Gogh/The Starry Night1889.PNG" alt="The Starry Night 1889" style="width: 229px; height: auto;">
-                    <p>The Starry Night 1889</p>
+                <div class="mySlides">
+                    <div class="numberext">7 / 7</div>
+                    <img src="Artists/Vincent_van_Gogh/The Starry Night1889.PNG" alt="The Starry Night 1889" style="width: 100%">
+                    <!-- <p>The Starry Night 1889</p> -->
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Vincent_van_Gogh/vincent-van-gogh.jpg!Portrait.jpg" style="width:100%" onclick="currentSlide(1)" alt="Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Vincent_van_Gogh/Self-Portrait 1886.PNG" style="width: 100%" onclick="currentSlide(2)" alt="Self-Portrait 1886">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Vincent_van_Gogh/Self Portrait 1889.PNG" style="width: 100%" onclick="currentSlide(3)" alt="Self Portrait 1889">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Vincent_van_Gogh/Self Portrait with Bandaged Ear1889.PNG" style="width: 100%" onclick="currentSlide(4)" alt="Self Portrait with Bandaged Ear 1889">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Vincent_van_Gogh/Iris1889.PNG" style="width: 100%" onclick="currentSlide(5)" alt="Iris 1889">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Vincent_van_Gogh/The Potato Eaters 1885.PNG" style="width: 100%" onclick="currentSlide(6)" alt="The Potato Eaters 1885">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Vincent_van_Gogh/The Starry Night1889.PNG" style="width: 100%" onclick="currentSlide(7)" alt="The Starry Night 1889">
+                    </div>
                 </div>
             </div>
         </div>

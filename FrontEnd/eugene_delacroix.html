@@ -25,18 +25,40 @@
                 <p>description from txt</p>
             </div>
 
-            <div class="artworks">
-                <div class="artwork-item">
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numberext">1 / 3</div>
                     <img src="Artists/Eugene_Delacroix/eugene-delacroix.jpg!Portrait.jpg" alt="Portrait">
-                    <p>Portrait</p>
+                    <!-- <p>Portrait</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Eugene_Delacroix/Fanatics of Tangier1837_1838.PNG" alt="Fanatics of Tangier 1837" style="width: 176px; height: auto;">
-                    <p>Fanatics of Tangier 1837</p>
+                <div class="mySlides">
+                    <div class="numberext">2 / 3</div>
+                    <img src="Artists/Eugene_Delacroix/Fanatics of Tangier1837_1838.PNG" alt="Fanatics of Tangier 1837" style="width: 100%">
+                    <!-- <p>Fanatics of Tangier 1837</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Eugene_Delacroix/Liberty Leading the People 1830.PNG" alt="Liberty Leading the People 1830" style="width: 224px; height: auto;">
-                    <p>Liberty Leading the People 1830</p>
+                <div class="mySlides">
+                    <div class="numberext">3 / 3</div>
+                    <img src="Artists/Eugene_Delacroix/Liberty Leading the People 1830.PNG" alt="Liberty Leading the People 1830" style="width: 100%">
+                    <!-- <p>Liberty Leading the People 1830</p> -->
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Eugene_Delacroix/eugene-delacroix.jpg!Portrait.jpg" style="width:100%" onclick="currentSlide(1)" alt="Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Eugene_Delacroix/Fanatics of Tangier1837_1838.PNG" style="width: 100%" onclick="currentSlide(2)" alt="Fanatics of Tangier 1837">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Eugene_Delacroix/Liberty Leading the People 1830.PNG" style="width: 100%" onclick="currentSlide(3)" alt="Liberty Leading the People 1830">
+                    </div>
                 </div>
             </div>
         </div>

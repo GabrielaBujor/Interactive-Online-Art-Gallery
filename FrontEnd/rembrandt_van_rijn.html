@@ -25,22 +25,48 @@
                 <p>description from txt</p>
             </div>
 
-            <div class="artworks">
-                <div class="artwork-item">
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numberext">1 / 4</div>
                     <img src="Artists/Rembrandt_van_Rijn/rembrandt.jpg!Portrait.jpg" alt="Portrait">
-                    <p>Portrait</p>
+                    <!-- <p>Portrait</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Rembrandt_van_Rijn/Flora1634.PNG" alt="Flora 1634" style="width: 147px; height: auto;">
-                    <p>Flora 1634</p>
+                <div class="mySlides">
+                    <div class="numberext">2 / 4</div>
+                    <img src="Artists/Rembrandt_van_Rijn/Flora1634.PNG" alt="Flora 1634" style="width: 100%">
+                    <!-- <p>Flora 1634</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Rembrandt_van_Rijn/The Nightwatch1642.PNG" alt="The Nightwatch 1642" style="width: 224px; height: auto;">
-                    <p>The Nightwatch 1642</p>
+                <div class="mySlides">
+                    <div class="numberext">3 / 4</div>
+                    <img src="Artists/Rembrandt_van_Rijn/The Nightwatch1642.PNG" alt="The Nightwatch 1642" style="width: 100%">
+                    <!-- <p>The Nightwatch 1642</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Rembrandt_van_Rijn/The Storm on the Sea of Galilee1633.PNG" alt="The Storm on the Sea of Galilee 1633" style="width: 147px; height: auto;">
-                    <p>The Storm on the Sea of Galilee 1633</p>
+                <div class="mySlides">
+                    <div class="numberext">4 / 4</div>
+                    <img src="Artists/Rembrandt_van_Rijn/The Storm on the Sea of Galilee1633.PNG" alt="The Storm on the Sea of Galilee 1633" style="width: 100%">
+                    <!-- <p>The Storm on the Sea of Galilee 1633</p> -->
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Rembrandt_van_Rijn/rembrandt.jpg!Portrait.jpg" style="width:100%" onclick="currentSlide(1)" alt="Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Rembrandt_van_Rijn/Flora1634.PNG" style="width: 100%" onclick="currentSlide(2)" alt="Flora 1634">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Rembrandt_van_Rijn/The Nightwatch1642.PNG" style="width: 100%" onclick="currentSlide(3)" alt="The Nightwatch 1642">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Rembrandt_van_Rijn/The Storm on the Sea of Galilee1633.PNG" style="width: 100%" onclick="currentSlide(4)" alt="The Storm on the Sea of Galilee 1633">
+                    </div>
                 </div>
             </div>
         </div>

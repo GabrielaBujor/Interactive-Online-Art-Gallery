@@ -25,18 +25,40 @@
                 <p>description from txt</p>
             </div>
 
-            <div class="artworks">
-                <div class="artwork-item">
-                    <img src="Artists/Edvard_Munch/Kiss1897.PNG" alt="Kiss, 1897" style="width: 170px; height: auto;">
-                    <p>Kiss, 1897</p>
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numberext">1 / 3</div>
+                    <img src="Artists/Edvard_Munch/Kiss1897.PNG" alt="Kiss, 1897" style="width: 100%">
+                    <!-- <p>Kiss, 1897</p> -->
                 </div>
-                <div class="artwork-item">
+                <div class="mySlides">
+                    <div class="numberext">2 / 3</div>
                     <img src="Artists/Edvard_Munch/self-portrait-i-1896.jpg!Portrait.jpg" alt="Portrait">
-                    <p>Portrait</p>
+                    <!-- <p>Portrait</p> -->
                 </div>
-                <div class="artwork-item">
-                    <img src="Artists/Edvard_Munch/The Scream 1893.PNG" alt="The Scream, 1893" style="width: 172px; height: auto;">
-                    <p>The Scream, 1893</p>
+                <div class="mySlides">
+                    <div class="numberext">3 / 3</div>
+                    <img src="Artists/Edvard_Munch/The Scream 1893.PNG" alt="The Scream, 1893" style="width: 100%">
+                    <!-- <p>The Scream, 1893</p> -->
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Edvard_Munch/Kiss1897.PNG" style="width:100%" onclick="currentSlide(1)" alt="Kiss, 1897">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Edvard_Munch/self-portrait-i-1896.jpg!Portrait.jpg" style="width: 100%" onclick="currentSlide(2)" alt="Portrait">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Artists/Edvard_Munch/The Scream 1893.PNG" style="width: 100%" onclick="currentSlide(3)" alt="The Scream, 1893">
+                    </div>
                 </div>
             </div>
         </div>
